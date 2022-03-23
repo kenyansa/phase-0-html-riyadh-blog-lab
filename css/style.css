@@ -21,7 +21,8 @@ body {
 
 #content {
   padding: 20px;
-  background: rgba(255,255,255,.85);
+  background: lightcyan;
+  border-radius: 0,5em;
 }
 
 h1, h2 {
@@ -53,6 +54,7 @@ img {
 
 p {
   font-size: 1em;
+  font-family:sans-serif;
 }
 
 a {
@@ -63,7 +65,9 @@ a {
 a:hover {
   text-decoration: underline;
 }
-
+img{
+  border-radius: 1em;
+}
 @media only screen and (max-width: 1042px) {
   .wrapper {
     width: 80%;
